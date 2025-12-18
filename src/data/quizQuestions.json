@@ -1,0 +1,96 @@
+{
+  "rounds": [
+    {
+      "roundNumber": 1,
+      "category": "Conocimiento General",
+      "questions": [
+        {
+          "id": "q1-1",
+          "question": "¿Cuál es la capital de Bolivia?",
+          "options": ["Asunción", "Quito", "Sucre", "La Paz", "Caracas"],
+          "correctAnswer": 2,
+          "points": 10,
+          "remove": [3, 4]
+        },
+        {
+          "id": "q1-2",
+          "question": "¿Qué partícula subatómica tiene carga negativa?",
+          "options": ["Protón", "Neutrón", "Electrón", "Quark", "Fotón"],
+          "correctAnswer": 2,
+          "points": 10,
+          "remove": [4, 3]
+        },
+        {
+          "id": "q1-3",
+          "question": "¿Cuál es el símbolo químico del oro?",
+          "options": ["Ag", "Au", "Gd", "Ga", "Pb"],
+          "correctAnswer": 1,
+          "points": 10,
+          "remove": [3, 4]
+        },
+        {
+          "id": "q1-4",
+          "question": "¿Qué país ganó el Mundial de Fútbol 2018?",
+          "options": ["Brasil", "Alemania", "Francia", "España", "Argentina"],
+          "correctAnswer": 2,
+          "points": 10,
+          "remove": [1, 3]
+        },
+        {
+          "id": "q1-5",
+          "question": "¿Quién escribió 'Cien años de soledad'?",
+          "options": ["Vargas Llosa", "Isabel Allende", "Borges", "García Márquez", "Neruda"],
+          "correctAnswer": 3,
+          "points": 10,
+          "remove": [1, 2]
+        }
+      ]
+    },
+    {
+      "roundNumber": 2,
+      "category": "Conocimiento General",
+      "questions": [
+        {
+          "id": "q2-1",
+          "question": "¿Cuál es el planeta más grande del sistema solar?",
+          "options": ["Saturno", "Júpiter", "Urano", "Marte", "Neptuno"],
+          "correctAnswer": 1,
+          "points": 10,
+          "remove": [2, 3]
+        },
+        {
+          "id": "q2-2",
+          "question": "¿Qué instrumento mide los terremotos?",
+          "options": ["Termómetro", "Sismógrafo", "Barómetro", "Anemómetro", "Geófono"],
+          "correctAnswer": 1,
+          "points": 10,
+          "remove": [0, 3]
+        },
+        {
+          "id": "q2-3",
+          "question": "¿Cuál es el país más poblado del mundo?",
+          "options": ["India", "Estados Unidos", "China", "Brasil", "Rusia"],
+          "correctAnswer": 2,
+          "points": 10,
+          "remove": [1, 3]
+        },
+        {
+          "id": "q2-4",
+          "question": "¿Qué científico desarrolló la teoría de la relatividad?",
+          "options": ["Newton", "Curie", "Tesla", "Bohr", "Einstein"],
+          "correctAnswer": 4,
+          "points": 10,
+          "remove": [1, 3]
+        },
+        {
+          "id": "q2-5",
+          "question": "¿Qué idioma tiene más hablantes nativos en el mundo?",
+          "options": ["Inglés", "Español", "Árabe", "Chino mandarín", "Hindi"],
+          "correctAnswer": 3,
+          "points": 10,
+          "remove": [2, 4]
+        }
+      ]
+    }
+  ]
+}

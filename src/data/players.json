@@ -1,0 +1,124 @@
+[
+  {
+    "id": "001",
+    "name": "Seong Gi-hun",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "eliminated": false
+  },
+  {
+    "id": "002",
+    "name": "Cho Sang-woo",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "eliminated": true
+  },
+  {
+    "id": "003",
+    "name": "Kang Sae-byeok",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "eliminated": false
+  },
+  {
+    "id": "004",
+    "name": "Oh Il-nam",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "eliminated": false
+  },
+  {
+    "id": "005",
+    "name": "Jang Deok-su",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "eliminated": true
+  },
+  {
+    "id": "006",
+    "name": "Ali Abdul",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "eliminated": true
+  },
+  {
+    "id": "007",
+    "name": "Ji-yeong",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "eliminated": true
+  },
+  {
+    "id": "008",
+    "name": "Player 008",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "eliminated": false
+  },
+  {
+    "id": "009",
+    "name": "Player 009",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "eliminated": false
+  },
+  {
+    "id": "010",
+    "name": "Player 010",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "eliminated": true
+  },
+  {
+    "id": "011",
+    "name": "Player 011",
+    "picture": "https://i.pravatar.cc/150?img=11",
+    "eliminated": false
+  },
+  {
+    "id": "012",
+    "name": "Player 012",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "eliminated": false
+  },
+  {
+    "id": "013",
+    "name": "Player 013",
+    "picture": "https://i.pravatar.cc/150?img=13",
+    "eliminated": true
+  },
+  {
+    "id": "014",
+    "name": "Player 014",
+    "picture": "https://i.pravatar.cc/150?img=14",
+    "eliminated": false
+  },
+  {
+    "id": "015",
+    "name": "Player 015",
+    "picture": "https://i.pravatar.cc/150?img=15",
+    "eliminated": false
+  },
+  {
+    "id": "016",
+    "name": "Player 016",
+    "picture": "https://i.pravatar.cc/150?img=16",
+    "eliminated": true
+  },
+  {
+    "id": "017",
+    "name": "Player 017",
+    "picture": "https://i.pravatar.cc/150?img=17",
+    "eliminated": false
+  },
+  {
+    "id": "018",
+    "name": "Player 018",
+    "picture": "https://i.pravatar.cc/150?img=18",
+    "eliminated": true
+  },
+  {
+    "id": "019",
+    "name": "Player 019",
+    "picture": "https://i.pravatar.cc/150?img=19",
+    "eliminated": false
+  },
+  {
+    "id": "020",
+    "name": "Player 020",
+    "picture": "https://i.pravatar.cc/150?img=20",
+    "eliminated": false
+  }
+]
+
+
