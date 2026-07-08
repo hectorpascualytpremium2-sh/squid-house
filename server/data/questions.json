@@ -1,0 +1,272 @@
+[
+  {
+    "id": "q1-1",
+    "text": "¿Cuál es la capital de Bolivia?",
+    "options": [
+      {
+        "id": "q1-1-opt-0",
+        "text": "Asunción"
+      },
+      {
+        "id": "q1-1-opt-1",
+        "text": "Quito"
+      },
+      {
+        "id": "q1-1-opt-2",
+        "text": "Sucre"
+      },
+      {
+        "id": "q1-1-opt-3",
+        "text": "La Paz"
+      },
+      {
+        "id": "q1-1-opt-4",
+        "text": "Caracas"
+      }
+    ],
+    "correctOptionId": "q1-1-opt-2"
+  },
+  {
+    "id": "q1-2",
+    "text": "¿Qué partícula subatómica tiene carga negativa?",
+    "options": [
+      {
+        "id": "q1-2-opt-0",
+        "text": "Protón"
+      },
+      {
+        "id": "q1-2-opt-1",
+        "text": "Neutrón"
+      },
+      {
+        "id": "q1-2-opt-2",
+        "text": "Electrón"
+      },
+      {
+        "id": "q1-2-opt-3",
+        "text": "Quark"
+      },
+      {
+        "id": "q1-2-opt-4",
+        "text": "Fotón"
+      }
+    ],
+    "correctOptionId": "q1-2-opt-2"
+  },
+  {
+    "id": "q1-3",
+    "text": "¿Cuál es el símbolo químico del oro?",
+    "options": [
+      {
+        "id": "q1-3-opt-0",
+        "text": "Ag"
+      },
+      {
+        "id": "q1-3-opt-1",
+        "text": "Au"
+      },
+      {
+        "id": "q1-3-opt-2",
+        "text": "Gd"
+      },
+      {
+        "id": "q1-3-opt-3",
+        "text": "Ga"
+      },
+      {
+        "id": "q1-3-opt-4",
+        "text": "Pb"
+      }
+    ],
+    "correctOptionId": "q1-3-opt-1"
+  },
+  {
+    "id": "q1-4",
+    "text": "¿Qué país ganó el Mundial de Fútbol 2018?",
+    "options": [
+      {
+        "id": "q1-4-opt-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "q1-4-opt-1",
+        "text": "Alemania"
+      },
+      {
+        "id": "q1-4-opt-2",
+        "text": "Francia"
+      },
+      {
+        "id": "q1-4-opt-3",
+        "text": "España"
+      },
+      {
+        "id": "q1-4-opt-4",
+        "text": "Argentina"
+      }
+    ],
+    "correctOptionId": "q1-4-opt-2"
+  },
+  {
+    "id": "q1-5",
+    "text": "¿Quién escribió 'Cien años de soledad'?",
+    "options": [
+      {
+        "id": "q1-5-opt-0",
+        "text": "Vargas Llosa"
+      },
+      {
+        "id": "q1-5-opt-1",
+        "text": "Isabel Allende"
+      },
+      {
+        "id": "q1-5-opt-2",
+        "text": "Borges"
+      },
+      {
+        "id": "q1-5-opt-3",
+        "text": "García Márquez"
+      },
+      {
+        "id": "q1-5-opt-4",
+        "text": "Neruda"
+      }
+    ],
+    "correctOptionId": "q1-5-opt-3"
+  },
+  {
+    "id": "q2-1",
+    "text": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": [
+      {
+        "id": "q2-1-opt-0",
+        "text": "Saturno"
+      },
+      {
+        "id": "q2-1-opt-1",
+        "text": "Júpiter"
+      },
+      {
+        "id": "q2-1-opt-2",
+        "text": "Urano"
+      },
+      {
+        "id": "q2-1-opt-3",
+        "text": "Marte"
+      },
+      {
+        "id": "q2-1-opt-4",
+        "text": "Neptuno"
+      }
+    ],
+    "correctOptionId": "q2-1-opt-1"
+  },
+  {
+    "id": "q2-2",
+    "text": "¿Qué instrumento mide los terremotos?",
+    "options": [
+      {
+        "id": "q2-2-opt-0",
+        "text": "Termómetro"
+      },
+      {
+        "id": "q2-2-opt-1",
+        "text": "Sismógrafo"
+      },
+      {
+        "id": "q2-2-opt-2",
+        "text": "Barómetro"
+      },
+      {
+        "id": "q2-2-opt-3",
+        "text": "Anemómetro"
+      },
+      {
+        "id": "q2-2-opt-4",
+        "text": "Geófono"
+      }
+    ],
+    "correctOptionId": "q2-2-opt-1"
+  },
+  {
+    "id": "q2-3",
+    "text": "¿Cuál es el país más poblado del mundo?",
+    "options": [
+      {
+        "id": "q2-3-opt-0",
+        "text": "India"
+      },
+      {
+        "id": "q2-3-opt-1",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "q2-3-opt-2",
+        "text": "China"
+      },
+      {
+        "id": "q2-3-opt-3",
+        "text": "Brasil"
+      },
+      {
+        "id": "q2-3-opt-4",
+        "text": "Rusia"
+      }
+    ],
+    "correctOptionId": "q2-3-opt-2"
+  },
+  {
+    "id": "q2-4",
+    "text": "¿Qué científico desarrolló la teoría de la relatividad?",
+    "options": [
+      {
+        "id": "q2-4-opt-0",
+        "text": "Newton"
+      },
+      {
+        "id": "q2-4-opt-1",
+        "text": "Curie"
+      },
+      {
+        "id": "q2-4-opt-2",
+        "text": "Tesla"
+      },
+      {
+        "id": "q2-4-opt-3",
+        "text": "Bohr"
+      },
+      {
+        "id": "q2-4-opt-4",
+        "text": "Einstein"
+      }
+    ],
+    "correctOptionId": "q2-4-opt-4"
+  },
+  {
+    "id": "q2-5",
+    "text": "¿Qué idioma tiene más hablantes nativos en el mundo?",
+    "options": [
+      {
+        "id": "q2-5-opt-0",
+        "text": "Inglés"
+      },
+      {
+        "id": "q2-5-opt-1",
+        "text": "Español"
+      },
+      {
+        "id": "q2-5-opt-2",
+        "text": "Árabe"
+      },
+      {
+        "id": "q2-5-opt-3",
+        "text": "Chino mandarín"
+      },
+      {
+        "id": "q2-5-opt-4",
+        "text": "Hindi"
+      }
+    ],
+    "correctOptionId": "q2-5-opt-3"
+  }
+]

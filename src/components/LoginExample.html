@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - El Juego del Calamar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Variables de Color Temáticas */
+        :root {
+            --squid-pink: #ff0077; /* Color de los guardias/acento */
+            --squid-teal-dark: #0a1e1e; /* Fondo oscuro */
+            --squid-teal-light: #1f4444; /* Degradado fondo */
+            --squid-cream: #f4f1e8; /* Color de la tarjeta/papel */
+            --squid-gold: #d4af37; /* Color de acento secundario */
+            --text-dark: #222;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Fondo atmosférico oscuro */
+            background: radial-gradient(circle at center, var(--squid-teal-light), var(--squid-teal-dark));
+            color: var(--text-dark);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Efecto de partículas de fondo sutiles (opcional) */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4af37' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        /* Contenedor principal: La "Tarjeta de Invitación" */
+        .login-card {
+            background-color: var(--squid-cream);
+            padding: 3rem;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+            box-shadow: 
+                0 20px 50px rgba(0,0,0,0.5),
+                0 0 20px rgba(212, 175, 55, 0.3); /* Brillo dorado sutil */
+            position: relative;
+            border: 1px solid #e6e1d3;
+        }
+
+        /* Cabecera con los símbolos */
+        .login-header {
+            margin-bottom: 2.5rem;
+        }
+
+        .shapes-logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 10px;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            /* Un toque sutil de los colores en el logo */
+            background: linear-gradient(90deg, var(--text-dark) 30%, var(--squid-pink) 50%, var(--text-dark) 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .login-header h1 {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 800;
+        }
+
+        /* Estilos del Formulario */
+        .input-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 1rem;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid #ccc;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .input-field:focus {
+            outline: none;
+            background-color: rgba(255, 0, 119, 0.05);
+            border-bottom-color: var(--squid-pink);
+            box-shadow: 0 4px 8px -4px var(--squid-pink);
+        }
+
+        /* El Botón Principal */
+        .btn-login {
+            width: 100%;
+            padding: 1.2rem;
+            background-color: var(--squid-pink);
+            color: white;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-login:hover {
+            background-color: #d90065;
+            box-shadow: 0 0 20px var(--squid-pink);
+            transform: translateY(-2px);
+        }
+
+        /* Pie del formulario */
+        .login-footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .login-footer a {
+            color: var(--squid-pink);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .login-footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsivo básico */
+        @media (max-width: 480px) {
+            .login-card {
+                margin: 20px;
+                padding: 2rem;
+            }
+            .shapes-logo {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="login-card">
+            <div class="login-header">
+                <div class="shapes-logo">○△□</div>
+                <h1>El Juego del Calamar</h1>
+            </div>
+
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="player-id">Número de Jugador</label>
+                    <input type="text" id="player-id" class="input-field" placeholder="Ej. 456" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="access-code">Código de Acceso</label>
+                    <input type="password" id="access-code" class="input-field" placeholder="••••••" required>
+                </div>
+
+                <button type="submit" class="btn-login">
+                    Entrar al Juego
+                </button>
+            </form>
+
+            <div class="login-footer">
+                <p>¿Aún no tienes tu invitación? <a href="#">Solicitar ingreso</a></p>
+                <p style="margin-top: 0.5rem;"><a href="#">¿Olvidaste tu código?</a></p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
